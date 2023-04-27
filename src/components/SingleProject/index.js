@@ -4,7 +4,7 @@ const SingleProject = () => {
     const {slug} = useParams();
     return (
         <>
-            <h1>Single Post</h1>
+            <h1>Single Project</h1>
             <p>{slug}</p>
         </>
     );

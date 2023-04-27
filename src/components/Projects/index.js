@@ -6,9 +6,10 @@ function Projects() {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        createClient.fetch(`*[_type == "post"]{
+        createClient.fetch(`*[_type == "project"]{
             title,
             slug,
+            image,
         } | order(publishedAt desc)`).then((data) => setProjects(data));
     }, []);
 
