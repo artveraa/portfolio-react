@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 
-const SinglePost = () => {
+const SingleProject = () => {
     const {slug} = useParams();
     return (
         <>
@@ -10,4 +10,4 @@ const SinglePost = () => {
     );
 }
 
-export default SinglePost;
+export default SingleProject;
