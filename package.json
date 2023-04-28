@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@portabletext/react": "^3.0.0",
     "@sanity/block-content-to-react": "^3.0.0",
     "@sanity/cli": "^3.9.1",
     "@sanity/client": "^5.4.2",
